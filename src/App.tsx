@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Components/Header';
+import Navbar from './Components/Navbar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Home from './Pages/Home';
