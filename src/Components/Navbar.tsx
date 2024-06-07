@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Box, Button, createTheme } from '@mui/material';
+import { AppBar, Toolbar, Box, Button, createTheme, IconButton, Typography } from '@mui/material';
 
 
 export default function Navbar() {
@@ -7,11 +7,12 @@ export default function Navbar() {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" sx={{bgcolor: "black"}}>
         <Toolbar>
+          
           <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'space-between' }}>
             {pages.map((page) => (
-              <Button  variant='contained' key={page} sx={{ color: 'white', backgroundColor: 'white',  marginLeft: 16, marginRight: 11}} disableRipple>
+              <Button  variant='contained' key={page} sx={{bgcolor:"black", marginLeft: 14, marginRight:14}} >
                 {page}
               </Button>
             ))}
