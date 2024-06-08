@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 
-
-export default function Home() {
+export default function MusicPage() {
   return (
     <>
-    <Navbar/>
-    <h1> hello </h1>
+    <Navbar />
+    <div>MusicPage</div>
     </>
   )
 }
