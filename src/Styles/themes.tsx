@@ -12,6 +12,7 @@ const theme = createTheme({
       '"Alfa Slab One"',
       'sans-serif'
     ].join(','),
+    fontSize: 100
   },
   components: {
     MuiCssBaseline: {

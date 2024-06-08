@@ -10,6 +10,7 @@ import MusicPage from "./Pages/MusicPage";
 import CodingPage from "./Pages/CodingPage";
 import LanguagesPage from "./Pages/LanguagesPage";
 import FitnessPage from "./Pages/FitnessPage";
+import { Container } from "@mui/material";
 
 const themeLight = createTheme({
   palette: {
@@ -55,11 +56,13 @@ const router = createBrowserRouter([
 const App = () => {
   const [light, setLight] = React.useState(true);
   return (
+    <Container>
     <ThemeProvider theme={light ? themeLight : themeDark}>
       <CssBaseline />
       <RouterProvider router={router} />
       <Button onClick={() => setLight((prev) => !prev)}>Toggle Theme</Button>
     </ThemeProvider>
+    </Container>
   );
 };
 
