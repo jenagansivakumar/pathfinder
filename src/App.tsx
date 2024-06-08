@@ -56,11 +56,11 @@ const router = createBrowserRouter([
 const App = () => {
   const [light, setLight] = React.useState(true);
   return (
-    <Container>
+    <Container sx={{bgcolor: "white"}}>
     <ThemeProvider theme={light ? themeLight : themeDark}>
       <CssBaseline />
-      <RouterProvider router={router} />
       <Button onClick={() => setLight((prev) => !prev)}>Toggle Theme</Button>
+      <RouterProvider router={router} />
     </ThemeProvider>
     </Container>
   );
