@@ -7,7 +7,9 @@ import Navbar from "./Components/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
 import MusicPage from "./Pages/MusicPage";
-
+import CodingPage from "./Pages/CodingPage";
+import LanguagesPage from "./Pages/LanguagesPage";
+import FitnessPage from "./Pages/FitnessPage";
 
 const themeLight = createTheme({
   palette: {
@@ -35,6 +37,18 @@ const router = createBrowserRouter([
   {
     path: "/music",
     element: <MusicPage /> 
+  }, 
+  {
+    path: "/coding",
+    element: <CodingPage /> 
+  },
+  {
+    path: "/languages",
+    element: <LanguagesPage /> 
+  },
+  {
+    path: "/fitness",
+    element: <FitnessPage /> 
   }
 ])
 
