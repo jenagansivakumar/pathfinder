@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import TodoList from '../Components/TodoList'
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
     <Navbar/>
     <h1> hello </h1>
+    <TodoList />
     </>
   )
 }
