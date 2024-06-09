@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-    <h1> hello </h1>
+    <h1> KRISTINA </h1>
     <TodoList />
     </>
   )
