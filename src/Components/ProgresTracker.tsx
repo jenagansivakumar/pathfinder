@@ -11,7 +11,7 @@ export default function ProgresTracker() {
   return (
     <>
     <Box>
-        <Typography> 🔥 </Typography>
+        <Typography > 🔥 </Typography>
     </Box>
     </>
   )

@@ -18,7 +18,7 @@ export default function Navbar() {
                 // href={`/${encodeURIComponent(page)}`}
 
                 sx={{
-                  bgcolor: "#636365",
+                  bgcolor: "#000000",
                   marginLeft: 2,
                   marginRight: 2,
                   boxShadow: 'none',

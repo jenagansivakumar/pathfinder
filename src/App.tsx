@@ -15,7 +15,7 @@ import { Container } from "@mui/material";
 const themeLight = createTheme({
   palette: {
     background: {
-      default: "#e4f0e2"
+      default: "#b5d9ff"
     },
    
   }
@@ -24,7 +24,7 @@ const themeLight = createTheme({
 const themeDark = createTheme({
   palette: {
     background: {
-      default: "#b5d9ff"
+      default: "#636365"
     },
    
   }
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
 const App = () => {
   const [light, setLight] = React.useState(true);
   return (
-    <Container sx={{bgcolor: "white"}}>
+    <Container sx={{bgcolor: "#636365"}}>
     <ThemeProvider theme={light ? themeLight : themeDark}>
       <CssBaseline />
       <Button onClick={() => setLight((prev) => !prev)}>Toggle Theme</Button>
