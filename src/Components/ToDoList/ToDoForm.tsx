@@ -1,17 +1,28 @@
-import { TextField, Container } from '@mui/material'
+import { TextField, Container, Button } from '@mui/material'
 import { log } from 'console'
 import React from 'react'
 import { useState } from 'react'
 
 export default function ToDoForm() {
-    const [value, setValue] = useState("")
+    const [todos, setTodos] = useState<string[]>([])
+    const [input, setInput] = useState<string>("")
     function onChange(e: React.ChangeEvent<HTMLInputElement>){
         console.log(e)
-        setValue(e.target.value)
+        setInput(e.target.value)
     }
+
+    function handleAddItem(e: React.MouseEvent<HTMLElement>){
+      if (input.trim() !== ""){
+        setTodos([...todos, input])
+        setInput("")
+      }
+
+    }
+
   return (
     <Container className='ToDoForm'>
-        <TextField variant='outlined' value={value}  ></TextField>
+        <TextField variant='outlined' value={input} onChange={onChange}  ></TextField>
+        <Button onClick={handleAddItem}> Add Todo</Button>
     </Container>
   )
 }
