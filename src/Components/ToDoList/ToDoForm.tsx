@@ -1,5 +1,6 @@
 import { TextField, Container, Button, Typography, List, ListItem } from '@mui/material';
 import React, { useState } from 'react';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 export default function ToDoForm() {
     const [todos, setTodos] = useState<string[]>([]);
@@ -40,7 +41,11 @@ export default function ToDoForm() {
             <List>
                 {todos.map((todo, index) => (
                     <ListItem key={index}>{todo}
-                    <Button onClick={()=> handleRemove(todo)}> Remove </Button>
+                    <Button onClick={()=> handleRemove(todo)}> 
+                    <Typography>Delete</Typography>
+                    <DeleteIcon />
+                    </Button>
+                    
                     </ListItem>
                     
                     
