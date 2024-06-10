@@ -17,12 +17,16 @@ export default function ToDoForm() {
         }
     }
 
-    function handleRemove(id:any){
-      console.log(id)
+    const handleRemove = (deleteTodo: string) => {
+      const newTodos = todos.filter((todo)=> todo !== deleteTodo)
+      setTodos(newTodos)
     }
 
     return (
         <Container className='ToDoForm'>
+           <Typography variant="h6" component="div" gutterBottom>
+                To-Do List
+            </Typography>
             <TextField
                 variant='outlined'
                 value={input}
@@ -32,13 +36,11 @@ export default function ToDoForm() {
             <Button onClick={handleAddItem} variant="contained" color="primary">
                 Add Todo
             </Button>
-            <Typography variant="h6" component="div" gutterBottom>
-                To-Do List
-            </Typography>
+           
             <List>
                 {todos.map((todo, index) => (
                     <ListItem key={index}>{todo}
-                    <Button onClick={handleRemove}> Remove </Button>
+                    <Button onClick={()=> handleRemove(todo)}> Remove </Button>
                     </ListItem>
                     
                     
