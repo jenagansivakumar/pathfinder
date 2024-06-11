@@ -2,6 +2,12 @@ import { createContext, useState, useEffect } from 'react';
 import { Axios } from 'axios';
 
 
-export default function LocationContextProvider() {
- console.log("hello")
+import React from 'react'
+
+export const LocationContextProvider = () => {
+  return (
+    console.log()
+  )
 }
+
+export default LocationContextProvider
