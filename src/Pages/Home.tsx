@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import ToDoForm from '../Components/ToDoList/ToDoForm'
+import Navbar from '../components/Navbar'
+import ToDoForm from '../components/ToDoList/ToDoForm'
 import { Typography, colors } from '@mui/material'
-import { WeatherApp } from '../Components/WeatherApp/WeatherApp'
+import { WeatherApp } from '../components/WeatherApp/WeatherApp'
 
 
 export default function Home() {

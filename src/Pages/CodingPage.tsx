@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import ProgresTracker from '../Components/ProgressTracker'
+import Navbar from '../components/Navbar'
+import ProgresTracker from '../components/ProgressTracker'
 import { createTheme } from '@mui/material'
 
 

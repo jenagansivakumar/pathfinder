@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Button from "@mui/material/Button";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Pages/Home";
-import MusicPage from "./Pages/MusicPage";
-import CodingPage from "./Pages/CodingPage";
-import LanguagesPage from "./Pages/LanguagesPage";
-import FitnessPage from "./Pages/FitnessPage";
+import Home from "./pages/Home";
+import MusicPage from "./pages/MusicPage";
+import CodingPage from "./pages/CodingPage";
+import LanguagesPage from "./pages/LanguagesPage";
+import FitnessPage from "./pages/FitnessPage";
 import { Container } from "@mui/material";
 
 const themeLight = createTheme({
