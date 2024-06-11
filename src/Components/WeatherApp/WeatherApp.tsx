@@ -1,7 +1,10 @@
 import React from 'react'
 import { Paper, TextField, Button, Typography } from '@mui/material'
+import { useEffect } from 'react'
 
 export const WeatherApp = () => {
+
+
   return (
     <>
         <Paper>
