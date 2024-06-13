@@ -51,6 +51,11 @@ export const WeatherApp: React.FC = () => {
     fetchWeatherData(city);
   };
 
+  const kelvinToCelsius = (kelvin: number) :number =>{
+    const unroundedCelsius = kelvin - 273.15
+    return Math.round(unroundedCelsius)
+  }
+
   return (
     <>
       <Paper>
@@ -67,7 +72,7 @@ export const WeatherApp: React.FC = () => {
         {weatherData && weatherData.list.length > 0 && (
           <>
             <Typography variant='h6'>Weather Data</Typography>
-            <Typography>Temperature: {weatherData.list[0].main.temp}°C</Typography>
+            <Typography>Temperature: {kelvinToCelsius(weatherData.list[0].main.temp)}°C</Typography>
             <img
               src={`http://openweathermap.org/img/wn/${weatherData.list[0].weather[0].icon}.png`}
               alt='weather icon'
