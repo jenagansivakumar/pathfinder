@@ -32,11 +32,12 @@ export const WeatherApp: React.FC = () => {
     const {latitude, longitude} = cityNameOrCoords
     apiURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
   }
+  
 
     fetch(apiURL)
       .then(response => {
         if (!response.ok) {
-          throw new Error("Please make sure you have spelled the city correctly");
+          throw new Error("Please make sure you have spelt the city correctly");
         }
         return response.json();
       })
@@ -52,7 +53,7 @@ export const WeatherApp: React.FC = () => {
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 const {latitude, longitude} = position.coords
-                fetchWeatherData(latitude, longitude)
+                fetchWeatherData({latitude, longitude})
             }
         )
     }
@@ -107,6 +108,9 @@ export const WeatherApp: React.FC = () => {
             }}
           >
             Submit
+          </Button>
+          <Button type='button' onClick={getLocation} >
+            Current Location
           </Button>
         </form>
         {error && (
