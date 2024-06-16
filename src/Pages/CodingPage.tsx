@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import ProgresTracker from '../components/ProgressTracker'
+import ProgressTracker from '../components/ProgressTracker'
 import { createTheme } from '@mui/material'
+import ToDoForm from 'components/ToDoList/ToDoForm'
 
 
 
@@ -10,48 +11,8 @@ export default function Coding() {
     <>
     <Navbar />
     <div>Coding
-      <ProgresTracker />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore, ipsam delectus rerum molestias quibusdam alias maxime sequi atque beatae ratione quo fugiat odio, doloribus dolorum laborum est nemo quod!
+      <ProgressTracker />
+      <ToDoForm />
     </div>
     </>
   )

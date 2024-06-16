@@ -7,7 +7,7 @@ const theme = createTheme({
       fontSize: 100
     }
   })
-export default function ProgresTracker() {
+export default function ProgressTracker() {
   return (
     <>
     <Box>
